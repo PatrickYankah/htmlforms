@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    color: #6b6bf5;
+    margin: 100px 100px;
+    padding: 50px;
+}
+.first{
+    width: 300px;
+}
+.second{
+    width: 300px;
+}
+.third{
+    width: 300px;
+}
+.forth{
+    width: 300px;
+}
+.fifth{
+    width: 606px;
+}
+
+button{
+    background-color: black;
+    color: white;
+}
+.ok{
+    width: 250px;
+}
+.btn{
+    width: 150px;
+    margin-top: 20px;
+}
+.box1{
+    padding: 15px;
+}
+.box2{
+    padding: 15px;
+}
+.box3{
+    padding: 15px;
+}
+.box4{
+    padding: 15px;
+}
+.box5{
+    padding: 15px;
+}
+.box6{
+    padding: 15px;
+    display: block;
+}
+.box7{
+    /* display: flex; */
+    align-items: center;
+    /* padding: 20px; */
+}

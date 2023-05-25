@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: block;
+    background-color: slateblue;
+    font-family: Arial;
+    padding: 10px;
+}
+.head{
+    display: block;
+    justify-content:start ;
+}
+.form{
+    display: flex;
+    Align-content: space-around;
+}
+.container1{
+    display: flex;
+    flex: 0 0 300;
+    justify-self: space-around;
+    /* flex-basis: 500px; */
+}
