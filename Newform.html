@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,58 +8,118 @@
     <title>New Form</title>
     <link rel="stylesheet" href="Newform.css">
 </head>
-<body>
-    <div class="head">
-        <h1>Checkout</h1>
-        <h2>There are product in your cast</h2>
-        <h2>Billing Details</h2>
-        
-        
-    </div>
-    <div class="form">
-        <form action="">
-            <div class="container1">
-                <input type="text" id="fname" placeholder="First Name" required>
-                <input type="text" id="lname" placeholder="Last Name"required>
-            </div>
-    
-            <div class="container2">
-                <input type="text" id="address" placeholder="Address" required>
-                <input type="text" id="address2" placeholder="Address 2" required>
-            </div>
-            
-            <div class="container3">
-                    <select name="course" id="course" required>
-                    <option value="opt1">Course</option> 
-                    <option value="opt1">web development</option>
-                    <option value="opt1">graphic design</option>
-                    <option value="opt1">system analysis</option>
-                </select>
-                <input type="text" id="coursetype" placeholder="Course Type">
-            </div>
-            
-            <div class="container4">
-                <input type="text" id="ok" placeholder="...." required>
-                <input type="tel" id="num" placeholder="phone" required>
-            </div>
-    
-            
-         <div class="container5"> <textarea name="info" id="info" cols="30" rows="10" placeholder="Additional information" required></textarea> </div>
 
-         <div class="box1">
-            <input type="radio" id="account" name="account" class="radio" class="sith">
-            <label for="account">Create Account</label>
-            <input type="radio" id="dob" name="account" class="radio" class="sith">
-            <label for="dob">Date of birth</label>
-        </div>
-            
-        <div class="box2"><h2 class="text">Apply now for scholarship</h2></div>
-            
-             <div class="box3">
-            <input type="text" id="ok1" name="ok1" placeholder=".........." required class="ok">
-            <button class="btn">Apply Code</button>
-        </div>
+<body>
+
+
+    <h1>Checkout</h1>
+    <p>There are product in your cast</p>
+    <h2>Billing Details</h2>
+
+
+
+
+    <div class="form">
+
+        <form action="#">
+
+            <fieldset class="container1">
+                <fieldset class="firstname">
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" placeholder="First Name" required>
+                </fieldset>
+
+                <fieldset class="lastname">
+                    <label for="lastname">Last name</label>
+                    <input type="text" id="lastname" placeholder="Last Name" required>
+                </fieldset>
+
+            </fieldset>
+
+
+
+
+
+            <fieldset class="container2">
+                <fieldset class="address">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" placeholder="Address" required>
+                </fieldset>
+                <fieldset class="address2">
+                    <label for="address">Address</label>
+                    <input type="text" id="address2" placeholder="Address 2" required>
+                </fieldset>
+
+            </fieldset>
+
+
+
+            <!-- <fieldset class="container3">
+                <fieldset class="select">
+                    <select name="course" id="course" required>
+                        <option value="opt1">Course</option>
+                        <option value="opt1">web development</option>
+                        <option value="opt1">graphic design</option>
+                        <option value="opt1">system analysis</option>
+                    </select>
+                </fieldset>
+                <fieldset class="coursetype">
+                    <input type="text" id="coursetype" placeholder="Course Type">
+                </fieldset>
+            </fieldset> -->
+
+
+
+            <fieldset class="container4">
+
+                <fieldset class="zipcode">
+                    <label for="zipcode">Zip Code</label>
+                    <input type="text" id="zipcode" placeholder="Zip Code" required>
+                </fieldset>
+                <fieldset class="phone">
+                    <label for="number">Phone</label>
+                    <input type="tel" id="number" placeholder="phone" required>
+                </fieldset>
+
+            </fieldset>
+
+
+
+            <fieldset class="container5">
+                <textarea name="info" id="info" cols="30" rows="10" placeholder="Additional information"
+                    required></textarea>
+            </fieldset>
+
+            <fielset class="container6">
+                <fielset class="createaccout">
+                    <input class="one" type="radio" id="account" name="account">
+                    <label for="account">Create Account</label>
+                </fielset>
+
+                <fieldset class="dateofbirth">
+                    <input class="one" type="radio" id="dateofbirth" name="account">
+                    <label for="dateofbirth">Date of birth</label>
+                </fieldset>
+            </fielset>
+
+
+
+            <!---
+
+            <h2 class="text">Apply now for scholarship</h2>
+
+            <fieldset>
+
+                <input type="text" id="ok1" name="ok1" placeholder=".........." required class="ok">
+
+                <button class="btn">Apply Code</button>
+            </fieldset> -->
+
+
+
         </form>
     </div>
+
 </body>
+
 </html>

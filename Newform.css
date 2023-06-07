@@ -1,25 +1,149 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body{
-    display: block;
-    background-color: slateblue;
+    background-color: white;
     font-family: Arial;
-    padding: 10px;
+    margin: 10px;
 }
-.head{
-    display: block;
-    justify-content:start ;
-}
-.form{
-    display: flex;
-    Align-content: space-around;
-}
+
 .container1{
     display: flex;
-    flex: 0 0 300;
-    justify-self: space-around;
-    /* flex-basis: 500px; */
+    /* justify-content: center; */
+    gap: 2rem;
+    border: none;
+}
+
+.firstname{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.lastname{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+label{
+    width: 300px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.container2{
+    display: flex;
+    /* justify-content: center; */
+    gap: 2rem;
+    border: none;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.address2{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+label{
+    width: 300px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+}
+
+/* .container3{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    border: none;
+}
+.select{
+    border: none;
+    
+}
+
+.coursetype{
+    border: none;
+}
+select{
+    width: 400px;
+} */
+
+.container4{
+    display: flex;
+    /* justify-content: center; */
+    gap: 2rem;
+    border: none;
+}
+
+.zipcode{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+label{
+    width: 300px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+}
+.container5{
+    display: flex;
+    /* justify-content: center; */
+    gap: 2rem;
+    border: none;
+}
+textarea{
+    width: 1032px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.container6{
+    display: block;
+    /* justify-content: center; */
+    gap: 2rem;
+    border: none;
+}
+
+.createaccout{
+    display: flex;
+    border: none;
+    flex-direction: row;
+}
+.dateofbirth{
+    display: flex;
+    border: none;
+    flex-direction: row;
+}
+.one{
+    width: 15px;
 }
