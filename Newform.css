@@ -15,6 +15,7 @@ body{
     /* justify-content: center; */
     gap: 2rem;
     border: none;
+    margin-bottom: 16px;
 }
 
 .firstname{
@@ -41,6 +42,7 @@ input{
     margin-bottom: 10px;
 }
 .container2{
+    margin-bottom: 16px;
     display: flex;
     /* justify-content: center; */
     gap: 2rem;
@@ -69,9 +71,10 @@ input{
     padding: 10px;
 }
 
-/* .container3{
+.container3{
+    margin-bottom: 16px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 2rem;
     border: none;
 }
@@ -80,14 +83,24 @@ input{
     
 }
 
+.option{
+    height: 50px;
+    padding: 10px;
+    width: 200px;
+}
+
+.courseinput{
+    width: 800px;
+}
 .coursetype{
     border: none;
 }
 select{
     width: 400px;
-} */
+} 
 
 .container4{
+    margin-bottom: 16px;
     display: flex;
     /* justify-content: center; */
     gap: 2rem;
@@ -117,6 +130,7 @@ input{
     padding: 10px;
 }
 .container5{
+    margin-bottom: 16px;
     display: flex;
     /* justify-content: center; */
     gap: 2rem;
@@ -128,22 +142,39 @@ textarea{
     margin-bottom: 5px;
 }
 .container6{
-    display: block;
+    margin-bottom: 16px;
+    display:block;
     /* justify-content: center; */
     gap: 2rem;
     border: none;
 }
 
-.createaccout{
-    display: flex;
+.createaccount{
+   display: flex;
     border: none;
-    flex-direction: row;
+    gap: .5rem;
 }
 .dateofbirth{
     display: flex;
     border: none;
-    flex-direction: row;
+    gap: .5rem;
 }
 .one{
     width: 15px;
+
+}
+
+.ok{
+    margin-top: 16px;
+}
+
+button{
+    height: 50px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+h1, h3{
+    color: blue;
 }
